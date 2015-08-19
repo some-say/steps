@@ -1,0 +1,41 @@
+{
+  "name": "steps",
+  "version": "0.1.0",
+  "description": "Steps helper for Mocha",
+  "author": {
+    "name": "Aleksander Szmigiel",
+    "email": "kontakt@some-say.com"
+  },
+  "homepage": "https://github.com/some-say/steps",
+  "keywords": [
+    "mocha",
+    "step",
+    "test",
+    "bdd",
+    "scenarios",
+    "sequence"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --slow 200 --timeout 10000 --check-leaks ./test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/some-say/steps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/some-say/steps/issues"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "gulp": "~3.9.0",
+    "gulp-header": "~1.2.2",
+    "gulp-rename": "~1.2.0",
+    "gulp-uglify": "~1.2.0",
+    "mocha": "latest",
+    "chai": "latest",
+    "vinyl-buffer": "~1.0.0",
+    "vinyl-source-stream": "~1.1.0"
+  }
+}
