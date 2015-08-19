@@ -1,5 +1,5 @@
-var step = requrie('./lib/step');
-var xstep = requrie('./lib/xstep');
+var step = require('./lib/step');
+var xstep = require('./lib/xstep');
 
 module.exports = {
 	step: step,
